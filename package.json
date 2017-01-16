@@ -1,6 +1,6 @@
 {
   "name": "gulp-toolbox",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A tool to help manage development workflow.",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,19 @@
   "bugs": {
     "url": "https://github.com/cascademedia/gulp-toolbox/issues"
   },
-  "homepage": "https://github.com/cascademedia/gulp-toolbox#readme"
+  "homepage": "https://github.com/cascademedia/gulp-toolbox#readme",
+  "dependencies": {
+    "browser-sync": "~2.18",
+    "colors": "~1.1",
+    "gulp": "~3.9",
+    "gulp-concat": "~2.6",
+    "gulp-sass": "~3.1",
+    "gulp-sourcemaps": "~2.4",
+    "gulp-uglify": "~2.0",
+    "gulp-util": "~3.0",
+    "lodash": "~4.17",
+    "moment": "~2.17",
+    "node-notifier": "~4.6",
+    "sprintf-js": "~1.0"
+  }
 }
