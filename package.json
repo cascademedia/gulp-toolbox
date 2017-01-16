@@ -1,0 +1,19 @@
+{
+  "name": "gulp-toolbox",
+  "version": "1.0.0",
+  "description": "A tool to help manage development workflow.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cascademedia/gulp-toolbox.git"
+  },
+  "author": "Cameron Condry <cameron@cascademedia.us> (http://cascademedia.us)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cascademedia/gulp-toolbox/issues"
+  },
+  "homepage": "https://github.com/cascademedia/gulp-toolbox#readme"
+}
