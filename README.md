@@ -37,7 +37,6 @@ var config = {
 
 toolbox.init(gulp, config);
 ```
-
 2. In your command line type the following command to start the Gulp watchers:
 ```
 gulp
