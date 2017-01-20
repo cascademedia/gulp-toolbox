@@ -71,7 +71,7 @@ Configurations
 ==============
 
 ###Global
-**production**: false
+**production**: default: false
 
 Turns on minification of JavaScript and SASS target files.
 
@@ -81,7 +81,7 @@ Can also be enabled on the command line:
 gulp --production
 ```
 
-**sourcemaps**: false
+**sourcemaps**: default: false
 
 Turns on sourcemaps for JavaScript and SASS target files.
 
@@ -93,15 +93,15 @@ gulp --sourcemaps
 
 ###Assets
 
-**assets.origin**: app/resources
+**assets.origin**: default: app/resources
 
 Defines the folder where all assets are located.
 
-**assets.target**: web/resources
+**assets.target**: default: web/resources
 
 Defines the folder where all assets will be moved.
 
-**assets.glob**: [ 'fonts/\*\*', 'images/\*\*' ]
+**assets.glob**: default: [ 'fonts/\*\*', 'images/\*\*' ]
 
 Defines origin assets files and folders.
 
@@ -109,19 +109,19 @@ Defines origin assets files and folders.
 
 ####Libraries
 
-**js.libs.origin**: app/resources/js/libs
+**js.libs.origin**: default: app/resources/js/libs
 
 Defines the folder where libraries are located.
 
-**js.libs.target**: web/resources/js
+**js.libs.target**: default: web/resources/js
 
 Defines the folder where libraries will be compiled.
 
-**js.libs.file**: libs.js
+**js.libs.file**: default: libs.js
 
 Defines the file created in the target directory.
 
-**js.libs.glob**: [ '\*\*/\*.js' ]
+**js.libs.glob**: default: [ '\*\*/\*.js' ]
 
 Defines the origin libraries files and folders.
 
@@ -136,19 +136,19 @@ config.js.libs.glob = [
 
 ####Source
 
-**js.src.origin**: app/resources/js
+**js.src.origin**: default: app/resources/js
 
 Defines the folder where source files are located.
 
-**js.src.target**: web/resources/js
+**js.src.target**: default: web/resources/js
 
 Defines the folder where source files will be compiled.
 
-**js.src.file**: main.js
+**js.src.file**: default: main.js
 
 Defines the file created in the target directory.
 
-**js.src.glob**: [ '\*.js' ]
+**js.src.glob**: default: [ '\*.js' ]
 
 Defines the source file libraries files and folders.
 
@@ -163,41 +163,41 @@ config.js.src.glob = [
 
 ###SASS
 
-**sass.origin**: app/resources
+**sass.origin**: default: app/resources
 
 Defines the folder where all sass files are located.
 
-**sass.target**: web/resources
+**sass.target**: default: web/resources
 
 Defines the folder where all sass files will be compiled.
 
-**sass.file**: main.css
+**sass.file**: default: main.css
 
 Defines the file created in the target directory.
 
-**sass.glob**: [ '\*\*/\*.scss' ]
+**sass.glob**: default: [ '\*\*/\*.scss' ]
 
 Defines origin assets files and folders.
 
 ###Sync
 
-**sync.glob**: [ 'web/resources/**' ]
+**sync.glob**: default: [ 'web/resources/**' ]
 
 Defines files and folders that are watched for changes to issue a reload to the live browser syncing.
 
-**sync.server.host**: 127.0.0.1
+**sync.server.host**: default: 127.0.0.1
 
 Local server host for browser syncing.
 
-**sync.server.proxy**: http://localhost:8081/
+**sync.server.proxy**: default: http://localhost:8081/
 
 Local server proxy website location.
 
-**sync.server.port**: 8082
+**sync.server.port**: default: 8082
 
 Syncing server port to use.
 
-**sync.server.notify**: false
+**sync.server.notify**: default: false
 
 Sends notifications to the desktop with updates during syncing.
 
@@ -245,4 +245,4 @@ gulp sass:watch
 License
 ========
 
-MIT
+[MIT](LICENSE.md)
