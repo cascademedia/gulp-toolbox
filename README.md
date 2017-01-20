@@ -95,7 +95,7 @@ gulp --sourcemaps
 
 **assets.origin**: app/resources
 
-Defines the folder where all assets are location.
+Defines the folder where all assets are located.
 
 **assets.target**: web/resources
 
@@ -165,7 +165,7 @@ config.js.src.glob = [
 
 **sass.origin**: app/resources
 
-Defines the folder where all sass files are location.
+Defines the folder where all sass files are located.
 
 **sass.target**: web/resources
 
