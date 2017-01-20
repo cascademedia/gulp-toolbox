@@ -16,7 +16,7 @@ Usage
 Minimum requirements to enable all default functionality:
 
 1. Create gulpfule.js with the following information:
-```
+```JavaScript
 var gulp = require('gulp');
 var toolbox = require('gulp-toolbox');
 
@@ -125,7 +125,7 @@ Defines the file created in the target directory.
 
 Defines the origin libraries files and folders.
 
-```
+```JavaScript
 Example to load libraries in order:
 
 config.js.libs.glob = [
@@ -152,7 +152,7 @@ Defines the file created in the target directory.
 
 Defines the source file libraries files and folders.
 
-```
+```JavaScript
 Example to include entire "/plugins" directory:
 
 config.js.src.glob = [
