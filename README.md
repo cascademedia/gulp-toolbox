@@ -125,9 +125,8 @@ Defines the file created in the target directory.
 
 Defines the origin libraries files and folders.
 
-```JavaScript
 Example to load libraries in order:
-
+```JavaScript
 config.js.libs.glob = [
     'jquery.min.js',
     'lodash.min.js'
@@ -152,9 +151,8 @@ Defines the file created in the target directory.
 
 Defines the source file libraries files and folders.
 
-```JavaScript
 Example to include entire "/plugins" directory:
-
+```JavaScript
 config.js.src.glob = [
     'plugins/**/*.js'
     '*.js'
