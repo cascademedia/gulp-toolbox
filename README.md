@@ -15,7 +15,7 @@ Usage
 
 Minimum requirements to enable all default functionality:
 
-1. Create gulpfule.js with the following information:
+- Create gulpfule.js with the following information:
 ```JavaScript
 var gulp = require('gulp');
 var toolbox = require('gulp-toolbox');
@@ -37,7 +37,8 @@ var config = {
 
 toolbox.init(gulp, config);
 ```
-2. In your command line type the following command to start the Gulp watchers:
+
+- In your command line type the following command to start the Gulp watchers:
 ```
 gulp
 ```
