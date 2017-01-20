@@ -72,6 +72,7 @@ Configurations
 
 ###Global
 **production**: false
+
 Turns on minification of JavaScript and SASS target files.
 
 Can also be enabled on the command line:
@@ -81,6 +82,7 @@ gulp --production
 ```
 
 **sourcemaps**: false
+
 Turns on sourcemaps for JavaScript and SASS target files.
 
 Can also be enabled on the command line:
@@ -92,12 +94,15 @@ gulp --sourcemaps
 ###Assets
 
 **assets.origin**: app/resources
+
 Defines the folder where all assets are location.
 
 **assets.target**: web/resources
+
 Defines the folder where all assets will be moved.
 
 **assets.glob**: [ 'fonts/\*\*', 'images/\*\*' ]
+
 Defines origin assets files and folders.
 
 ###JavaScript
@@ -105,15 +110,19 @@ Defines origin assets files and folders.
 ####Libraries
 
 **js.libs.origin**: app/resources/js/libs
+
 Defines the folder where libraries are located.
 
 **js.libs.target**: web/resources/js
+
 Defines the folder where libraries will be compiled.
 
 **js.libs.file**: libs.js
+
 Defines the file created in the target directory.
 
 **js.libs.glob**: [ '\*\*/\*.js' ]
+
 Defines the origin libraries files and folders.
 
 ```
@@ -128,15 +137,19 @@ config.js.libs.glob = [
 ####Source
 
 **js.src.origin**: app/resources/js
+
 Defines the folder where source files are located.
 
 **js.src.target**: web/resources/js
+
 Defines the folder where source files will be compiled.
 
 **js.src.file**: main.js
+
 Defines the file created in the target directory.
 
 **js.src.glob**: [ '\*.js' ]
+
 Defines the source file libraries files and folders.
 
 ```
@@ -151,32 +164,41 @@ config.js.src.glob = [
 ###SASS
 
 **sass.origin**: app/resources
+
 Defines the folder where all sass files are location.
 
 **sass.target**: web/resources
+
 Defines the folder where all sass files will be compiled.
 
 **sass.file**: main.css
+
 Defines the file created in the target directory.
 
 **sass.glob**: [ '\*\*/\*.scss' ]
+
 Defines origin assets files and folders.
 
 ###Sync
 
 **sync.glob**: [ 'web/resources/**' ]
+
 Defines files and folders that are watched for changes to issue a reload to the live browser syncing.
 
 **sync.server.host**: 127.0.0.1
+
 Local server host for browser syncing.
 
 **sync.server.proxy**: http://localhost:8081/
+
 Local server proxy website location.
 
 **sync.server.port**: 8082
+
 Syncing server port to use.
 
 **sync.server.notify**: false
+
 Sends notifications to the desktop with updates during syncing.
 
 Gulp Tasks
