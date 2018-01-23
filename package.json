@@ -21,6 +21,7 @@
     "colors": "~1.1",
     "gulp": "~3.9",
     "gulp-concat": "~2.6",
+    "gulp-rename": "~1.2",
     "gulp-sass": "~3.1",
     "gulp-sourcemaps": "~2.4",
     "gulp-uglify": "~2.0",

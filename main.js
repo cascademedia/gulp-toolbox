@@ -8,6 +8,7 @@
     var fs = require('fs');
     var moment = require('moment');
     var notifier = require('node-notifier');
+    var rename = require('gulp-rename');
     var sass = require('gulp-sass');
     var sourcemaps = require('gulp-sourcemaps');
     var uglifyjs = require('gulp-uglify');
@@ -194,7 +195,7 @@
             .pipe(config.sourcemaps ? sourcemaps.init() : util.noop())
             .pipe(sass(options).on('error', displaySassError))
             .pipe(config.sourcemaps ? sourcemaps.write() : util.noop())
-            .pipe(concat(file))
+            .pipe(rename(file))
             .pipe(gulp.dest(target))
             .on('finish', function () {
                 output('write', target + '/' + file);
